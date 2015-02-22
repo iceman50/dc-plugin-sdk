@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\dcapi">
+      <UniqueIdentifier>{eb310ede-eb0d-42bb-8d9c-ffc61a02bc6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dcapi">
+      <UniqueIdentifier>{91eab6cd-1b1b-493d-a6e4-6d7dd9a3e701}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AssemblyLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AssemblyManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AssemblyResolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Marshalling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NETPluginSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommandReferrer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MetaDataParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dcapi\Config.cpp">
+      <Filter>Source Files\dcapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dcapi\Connections.cpp">
+      <Filter>Source Files\dcapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dcapi\Core.cpp">
+      <Filter>Source Files\dcapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dcapi\Hooks.cpp">
+      <Filter>Source Files\dcapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dcapi\Hubs.cpp">
+      <Filter>Source Files\dcapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dcapi\Logger.cpp">
+      <Filter>Source Files\dcapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dcapi\Queue.cpp">
+      <Filter>Source Files\dcapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dcapi\Tagger.cpp">
+      <Filter>Source Files\dcapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dcapi\UI.cpp">
+      <Filter>Source Files\dcapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dcapi\Util.cpp">
+      <Filter>Source Files\dcapi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AssemblyLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AssemblyManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AssemblyResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommandReferrer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Marshalling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MetaDataParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NETPluginSink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dcapi\Config.hpp">
+      <Filter>Header Files\dcapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dcapi\Connections.hpp">
+      <Filter>Header Files\dcapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dcapi\Core.hpp">
+      <Filter>Header Files\dcapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dcapi\Hooks.hpp">
+      <Filter>Header Files\dcapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dcapi\Hubs.hpp">
+      <Filter>Header Files\dcapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dcapi\Logger.hpp">
+      <Filter>Header Files\dcapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dcapi\PluginDefs.h">
+      <Filter>Header Files\dcapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dcapi\Queue.hpp">
+      <Filter>Header Files\dcapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dcapi\Tagger.hpp">
+      <Filter>Header Files\dcapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dcapi\UI.hpp">
+      <Filter>Header Files\dcapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dcapi\Util.hpp">
+      <Filter>Header Files\dcapi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
